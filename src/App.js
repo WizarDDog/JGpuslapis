@@ -1,25 +1,30 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import VUlogo from './images/VUlogo.png'
+import Body from './body/body'
 
 class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            headerName: "header",
+        }
+    }
+
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <div className="App-header">
+            <img id="logo" src={VUlogo} alt={"logo"} />
+            <div id="about">About</div>
+            <div id="contacts">Contacts</div>
+            <div id="projects">Projects</div>
+        </div>
+              <Body />
+          <div className="footer">
+              <p>2018 VU Chemijos Fakultetas</p>
+          </div>
       </div>
     );
   }
