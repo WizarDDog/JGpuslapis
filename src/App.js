@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import './App.css';
-import VUlogo from './images/VUlogo.png'
-import Body from './body/body'
+
+import {BrowserRouter, Route, Switch} from "react-router-dom";
+import Team from "./pages/team";
+import Home from './pages/homepage'
+import Projects from "./pages/projects";
 
 class App extends Component {
     constructor(props) {
@@ -15,16 +17,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-            <img id="logo" src={VUlogo} alt={"logo"} />
-            <div id="about">About</div>
-            <div id="contacts">Contacts</div>
-            <div id="projects">Projects</div>
-        </div>
-              <Body />
-          <div className="footer">
-              <p>2018 VU Chemijos Fakultetas</p>
-          </div>
+          <BrowserRouter>
+
+          <Switch>
+              <Route path='/' exact component={Home}/>
+              <Route path="/team"  exact component={Team}/>
+              <Route path="/projects"  exact component={Projects}/>
+          </Switch>
+          </BrowserRouter>
+
       </div>
     );
   }
