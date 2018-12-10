@@ -24,37 +24,58 @@ class Team extends Component {
                 <Header/>
                 <div className="allGallery">
                 <div className="gallery">
+                    <a target="_blank" >
                         <img src={portrait} alt="Cinque Terre" width="300" height="200"/>
+                    </a>
                     <div className="desc">Add a description of the image here</div>
                 </div>
                     <div className="gallery">
-                        <img src={portrait1} alt="Forest" width="300" height="200"/>
+                        <a target="_blank" >
+                            <img src={portrait1} alt="Forest" width="300" height="200"/>
+                        </a>
+                        <div className="desc">Add a description of the image here</div>
+                    </div>
+
+                    <div className="gallery">
+                        <a target="_blank" >
+                            <img src={portrait2} alt="Northern Lights" width="300" height="200"/>
+                        </a>
+                        <div className="desc">Add a description of the image here</div>
+                    </div>
+
+                    <div className="gallery">
+                        <a target="_blank" >
+                            <img src={portrait3} alt="Mountains" width="300" height="200"/>
+                        </a>
                         <div className="desc">Add a description of the image here</div>
                     </div>
                     <div className="gallery">
-                        <img src={portrait2} alt="Northern Lights" width="300" height="200"/>
+                        <a target="_blank" >
+                            <img src={portrait} alt="Cinque Terre" width="300" height="200"/>
+                        </a>
                         <div className="desc">Add a description of the image here</div>
                     </div>
                     <div className="gallery">
-                        <img src={portrait3} alt="Mountains" width="300" height="200"/>
+                        <a target="_blank" >
+                            <img src={portrait1} alt="Forest" width="300" height="200"/>
+                        </a>
                         <div className="desc">Add a description of the image here</div>
                     </div>
+
                     <div className="gallery">
-                        <img src={portrait} alt="Cinque Terre" width="300" height="200"/>
+                        <a target="_blank" >
+                            <img src={portrait2} alt="Northern Lights" width="300" height="200"/>
+                        </a>
                         <div className="desc">Add a description of the image here</div>
                     </div>
+
                     <div className="gallery">
-                        <img src={portrait1} alt="Forest" width="300" height="200"/>
+                        <a target="_blank" >
+                            <img src={portrait3} alt="Mountains" width="300" height="200"/>
+                        </a>
                         <div className="desc">Add a description of the image here</div>
                     </div>
-                    <div className="gallery">
-                        <img src={portrait2} alt="Northern Lights" width="300" height="200"/>
-                        <div className="desc">Add a description of the image here</div>
-                    </div>
-                    <div className="gallery">
-                        <img src={portrait3} alt="Mountains" width="300" height="200"/>
-                        <div className="desc">Add a description of the image here</div>
-                    </div>
+
                 </div>
                 <Footer/>
             </div>
