@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="322a88df-37a9-4e7e-a629-140fd17a185c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/contacts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/projects.css" afterDir="false" />
+    <list default="true" id="322a88df-37a9-4e7e-a629-140fd17a185c" name="Default Changelist" comment="+fixed warning, errors&#10;+projects page&#10;+scroll to particular project">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/VUlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/chemistry.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/chemistry1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/chemistry2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/images/portrait.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/images/portrait2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/images/portrait3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/images/portrait4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/images/project.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/images/project1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/images/team.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/body/body.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/body/body.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/body/body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/body/body.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/team.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/team.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/team.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/team.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/pages/projects.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+              <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -104,6 +105,11 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="k1993g@gmail.com" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -196,6 +202,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
@@ -238,7 +245,7 @@
       <workItem from="1544179699455" duration="12927000" />
       <workItem from="1544296187640" duration="608000" />
       <workItem from="1544422364633" duration="22617000" />
-      <workItem from="1544525899038" duration="9593000" />
+      <workItem from="1544525899038" duration="10453000" />
     </task>
     <task id="LOCAL-00001" summary="+VU page">
       <created>1544193000649</created>
@@ -268,11 +275,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544444978944</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="+fixed warning, errors&#10;+projects page&#10;+scroll to particular project">
+      <created>1544539779840</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544539779840</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45745000" />
+    <option name="totallyTimeSpent" value="46605000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -336,7 +350,8 @@
     <MESSAGE value="+projects&#10;+team&#10;+dropdown&#10;&#10;-gif stops" />
     <MESSAGE value="change readme" />
     <MESSAGE value="+fix team" />
-    <option name="LAST_COMMIT_MESSAGE" value="+fix team" />
+    <MESSAGE value="+fixed warning, errors&#10;+projects page&#10;+scroll to particular project" />
+    <option name="LAST_COMMIT_MESSAGE" value="+fixed warning, errors&#10;+projects page&#10;+scroll to particular project" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.js">
@@ -488,7 +503,7 @@
     <entry file="file://$PROJECT_DIR$/src/pages/projects.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
