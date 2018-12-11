@@ -43,11 +43,11 @@ class Header extends Component {
                 key={i}
                 id={`dropdown-basic-${i}`}
             >
-                <MenuItem id="menuItem" eventKey="1">New Projects</MenuItem>
-                <MenuItem id="menuItem" eventKey="2">Other Projects</MenuItem>
-                <MenuItem id="menuItem" eventKey="3">2015-2018</MenuItem>
+                <Link   to="/projects" id="projectLinks">New Projects</Link>
+                <Link   to="/projects" id="projectLinks">Other Projects</Link>
+                <Link   to="/projects" id="projectLinks">2015-2018</Link>
                 <MenuItem divider />
-                <MenuItem id="menuItem" eventKey="4">Working Now</MenuItem>
+                <Link   to="/projects/working" id="projectLinks">Working Now</Link>
             </DropdownButton>
         );
     }
@@ -56,8 +56,8 @@ class Header extends Component {
         return (
                 <div className="App-header">
                     <img id="logo" src={VUlogo} alt={"logo"} />
-                    <div id="contacts">Contacts</div>
-                    <div id="about">About</div>
+                    <Link to="/contacts" id="contacts">Contacts</Link>
+                    <Link to="/about" id="about">About</Link>
                     <div id='projects' >{this.renderDropdownButton()}</div>
                     <Link to="/team" id="team">Team</Link>
                     <Link to="/" id="home">Home</Link>

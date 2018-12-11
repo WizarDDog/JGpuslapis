@@ -24,55 +24,55 @@ class Team extends Component {
                 <Header/>
                 <div className="allGallery">
                 <div className="gallery">
-                    <a target="_blank" >
+                    <button disabled  >
                         <img src={portrait} alt="Cinque Terre" width="300" height="200"/>
-                    </a>
+                    </button>
                     <div className="desc">Add a description of the image here</div>
                 </div>
                     <div className="gallery">
-                        <a target="_blank" >
+                         <button disabled>
                             <img src={portrait1} alt="Forest" width="300" height="200"/>
-                        </a>
+                         </button>
                         <div className="desc">Add a description of the image here</div>
                     </div>
 
                     <div className="gallery">
-                        <a target="_blank" >
+                        <button disabled>
                             <img src={portrait2} alt="Northern Lights" width="300" height="200"/>
-                        </a>
+                        </button>
                         <div className="desc">Add a description of the image here</div>
                     </div>
 
                     <div className="gallery">
-                        <a target="_blank" >
+                        <button disabled>
                             <img src={portrait3} alt="Mountains" width="300" height="200"/>
-                        </a>
+                        </button>
                         <div className="desc">Add a description of the image here</div>
                     </div>
                     <div className="gallery">
-                        <a target="_blank" >
+                        <button disabled>
                             <img src={portrait} alt="Cinque Terre" width="300" height="200"/>
-                        </a>
+                        </button>
                         <div className="desc">Add a description of the image here</div>
                     </div>
                     <div className="gallery">
-                        <a target="_blank" >
+                        <button disabled>
                             <img src={portrait1} alt="Forest" width="300" height="200"/>
-                        </a>
+                        </button>
                         <div className="desc">Add a description of the image here</div>
                     </div>
 
                     <div className="gallery">
-                        <a target="_blank" >
+                        <button disabled>
                             <img src={portrait2} alt="Northern Lights" width="300" height="200"/>
-                        </a>
+                        </button>
                         <div className="desc">Add a description of the image here</div>
                     </div>
 
                     <div className="gallery">
-                        <a target="_blank" >
+                        <button disabled>
                             <img src={portrait3} alt="Mountains" width="300" height="200"/>
-                        </a>
+                        </button>
                         <div className="desc">Add a description of the image here</div>
                     </div>
 

@@ -1,0 +1,30 @@
+html{
+    overflow: auto;
+    height: 2000px;
+}
+#project1{
+    z-index: -1;
+    position: relative;
+    padding-top: 100px;
+    margin-left: 50px;
+    display: table;
+    height: 250px;
+    overflow: auto;
+    border-bottom: 2px solid #982d57;
+}
+#projectImage1{
+    height: 250px;
+    float: left;
+}
+
+#h2a{
+    float: top;
+}
+#p1{
+    display: table;
+    float: bottom;
+    margin: 25px;
+}
+p {
+    margin: 25px;
+}

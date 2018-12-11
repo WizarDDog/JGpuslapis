@@ -9,6 +9,7 @@
     height: inherit;
     max-width: 100px;
     background: inherit;
+    border-bottom: 5px solid #982d57;
 }
 #about #contacts #projects {
     float: right;
@@ -59,7 +60,6 @@
     font-size: 2em;
     transition: 1s;
     font-weight: bold;
-    text-decoration: none;
     color: black;
 }
 #team:hover{
@@ -72,7 +72,6 @@
     font-size: 2em;
     transition: 1s;
     font-weight: bold;
-    text-decoration: none;
     color: black;
 }
 #home:hover{
@@ -90,10 +89,13 @@
     background: white;
     color: #982d57
 }
-#menuItem {
-    font-weight: bold;
-    transition: 1s;
+
+#projectLinks {
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    display: block;
 }
-#menuItem:hover{
+#projectLinks:hover{
     color: #982d57;
 }

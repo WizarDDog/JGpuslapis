@@ -19,24 +19,24 @@ class Body extends Component {
         super(props);
         this.state = {
             slide: chem1,
-            fade: "fade",
+            fade: "",
         }
     }
 
     changeSlide1 = () => {
         if(this.state.slide === chem1){
-            this.setState({slide: chem2,fade: "fade1"});
+            this.setState({slide: chem2,fade: "fade2"});
         }
         if(this.state.slide === chem2){
-            this.setState({slide: chem3,fade: "fade2"});
+            this.setState({slide: chem3,fade: "fade3"});
         }
         if(this.state.slide === chem3){
-            this.setState({slide: chem1,fade: "fade"})
+            this.setState({slide: chem1,fade: "fade1"})
         }
     }
 
 
-    changeSlide0= () =>{
+    changeSlide0 = () =>{
         if(this.state.slide === chem1){
             this.setState({slide: chem3,fade: "fade1"})
         }
@@ -44,7 +44,7 @@ class Body extends Component {
             this.setState({slide: chem1,fade: "fade2"})
         }
         if(this.state.slide === chem3){
-            this.setState({slide: chem2,fade: "fade0"})
+            this.setState({slide: chem2,fade: "fade"})
         }
     }
 
@@ -54,7 +54,7 @@ class Body extends Component {
                 <div id='left' onClick={()=> this.changeSlide0()}><FontAwesomeIcon icon="arrow-circle-left"/>
                 </div>
                 <div className={this.state.fade} id="slideShow">
-                        <img src={this.state.slide} alt={"logo"}/>
+                        <img id="image" src={this.state.slide} alt={"logo"}/>
                     </div>
                 <div id='right' onClick={()=> this.changeSlide1()}><FontAwesomeIcon icon="arrow-circle-right"/>
                 </div>
