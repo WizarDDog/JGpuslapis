@@ -1,18 +1,25 @@
 import React, { Component } from 'react';
-import './header.css';
-import VUlogo from '../images/VUlogo.png'
+import './header.scss';
+import Logo from '../images/Logo/OMRG su tekstu.png'
 import {Link} from 'react-router-dom'
-import { MenuItem, DropdownButton } from 'react-bootstrap'
+import { DropdownItem, ButtonDropdown , DropdownToggle, DropdownMenu} from 'reactstrap'
 
 
 
 class Header extends Component {
     constructor(props) {
         super(props);
+        this.toggle = this.toggle.bind(this)
         this.state = {
             headerName: "header",
             menu: true,
-        }
+            dropdownOpen: false,
+        };
+    }
+    toggle() {
+        this.setState({
+            dropdownOpen: !this.state.dropdownOpen
+        });
     }
 
     showMenu(){
@@ -38,24 +45,29 @@ class Header extends Component {
 
     renderDropdownButton(title, i) {
         return (
-            <DropdownButton className="dropdown"
-                title={'Projects'}
+            <ButtonDropdown
                 key={i}
-                id={`dropdown-basic-${i}`}
+                toggle={this.toggle}
+                isOpen={this.state.dropdownOpen}
+                className="buttonDropDown"
+
             >
-                <Link   to="/projects" id="projectLinks">New Projects</Link>
-                <Link   to="/projects" id="projectLinks">Other Projects</Link>
-                <Link   to="/projects" id="projectLinks">2015-2018</Link>
-                <MenuItem divider />
-                <Link   to="/projects/working" id="projectLinks">Working Now</Link>
-            </DropdownButton>
+                <DropdownToggle id="dropdown">Projects</DropdownToggle>
+                <DropdownMenu style={{width: 220, textAlign: 'center', fontSize: '0.8em', backgroundColor: '#DCDCDC'}}>
+                    <Link   to="/projects" id="projectLinks">New Projects</Link>
+                    <Link   to="/projects" id="projectLinks">Other Projects</Link>
+                    <Link   to="/projects" id="projectLinks">2015-2018</Link>
+                    <DropdownItem divider />
+                    <Link  to="/projects/working" id="projectLinks">Working Now</Link>
+                </DropdownMenu>
+            </ButtonDropdown>
         );
     }
 
     render() {
         return (
                 <div className="App-header">
-                    <img id="logo" src={VUlogo} alt={"logo"} />
+                    <img id="logo" src={Logo} alt={"logo"} />
                     <Link to="/contacts" id="contacts">Contacts</Link>
                     <Link to="/about" id="about">About</Link>
                     <div id='projects' >{this.renderDropdownButton()}</div>

@@ -1,0 +1,124 @@
+.App-header {
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 5px solid #006A44 ;
+    background: #DCDCDC;
+    z-index: 999;
+}
+#logo {
+    height: inherit;
+    max-width: 500px;
+    background: inherit;
+    border-bottom: 5px solid #FDB913;
+}
+#about #contacts #projects {
+    display: inline;
+}
+#about {
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    font-size: 3.5em;
+    transition: 1s;
+    font-weight: bold;
+    color: black;
+}
+#about:hover{
+    color: #C1272D;
+    text-decoration: none;
+}
+#contacts {
+    float: right;
+    margin-right: 35px;
+    margin-top: 30px;
+    font-size: 3.5em;
+    transition: 1s;
+    font-weight: bold;
+    color: black;
+}
+#contacts:hover{
+    color: #C1272D;
+    text-decoration: none;
+}
+#projects {
+    float: right;
+    margin-top: 23px;
+    margin-right: 80px;
+    font-size: 3.5em;
+    transition: 1s;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+#projects:hover{
+    border: none;
+    color: #C1272D;
+    text-decoration: none;
+}
+#team {
+    float: right;
+    margin-top: 30px;
+    margin-right: 38px;
+    font-size: 3.5em;
+    transition: 1s;
+    font-weight: bold;
+    color: black;
+}
+#team:hover{
+    color: #C1272D;
+    text-decoration: none;
+}
+#home{
+    float: right;
+    margin-top: 30px;
+    margin-right: 35px;
+    font-size: 3.5em;
+    transition: 1s;
+    font-weight: bold;
+    color: black;
+}
+#home:hover{
+    text-decoration: none;
+    color: #C1272D;
+}
+.btn-group {
+    #dropdown:focus{
+        box-shadow: none;
+    }
+    #dropdown{
+        // border: none;
+        // margin: 50px;
+        
+        all: inherit;
+        width: 80px;
+        margin-right: 10px;
+        text-align: center;
+        display: initial;
+        margin-top: 2px;
+        transition: 1s;
+        color: black;
+    }
+    #dropdown:hover{
+        background: #DCDCDC;
+        color: #C1272D;
+    }
+}
+
+#projectLinks {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    transition: 1s;
+}
+#projectLinks:hover{
+    text-decoration: none;
+    color: #C1272D;
+}
+.dropdown-menu{
+    top: 31px !important;
+    left: -40px !important;
+    background: #DCDCDC;
+}

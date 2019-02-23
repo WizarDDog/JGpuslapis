@@ -1,0 +1,50 @@
+.grid {
+    background: #DCDCDC;
+    .gridRowFirst{
+        .gridColFirst{
+            img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 150px;
+                width: 80%;
+            }
+        }
+    }
+    .gridRowSecond{
+        margin-top: 2%;
+        .gridCol{
+            width: 40%;
+            height: 300px;
+            display: inline-block;
+            margin-left: 10%;
+            p{
+                padding: 10px;
+                margin: 0;
+            }
+        }
+        .gridColTop{
+            height: 300px;
+            width: 40%;
+            display: inline-block;
+            vertical-align: top;
+
+            img{
+                height:inherit;
+                width: -moz-available;          
+                width: -webkit-fill-available;
+            }
+        }
+        .gridColBottom{
+            margin-top: 2%;
+            img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+                
+                padding-bottom: 50px;
+            }
+        }
+    }
+}

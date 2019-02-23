@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../header/header'
 import Footer from '../footer/footer'
+import './contacts.scss'
 
 
 class Contacts extends Component {
@@ -16,7 +17,11 @@ class Contacts extends Component {
         return (
             <div >
                 <Header/>
-                <Footer/>
+                    <div className='contacts-wrapper'>
+                        <div>Google maps</div>
+                        <div>something on right</div>
+                        <div>something on bottom</div>
+                    </div>
             </div>
         );
     }

@@ -1,0 +1,75 @@
+div.team {
+    height: 100%;
+    background: #DCDCDC;
+}
+div.gallery {
+    margin-top: 150px;
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 300px ;
+    height: 200px ;
+    box-shadow: 0 0 0 5px rgba(0,0,0,0.1);
+    transition: 1s;
+    display: inline-block;
+    width: 100%;
+    z-index: 5;
+    position: relative;
+    background-color: white;
+    button {
+        display: inline-block;
+         width: 30%;
+         border: 1px solid #FDB913
+    }
+}
+
+div.gallery:hover {
+    border: 3px solid #C1272D;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+div.desc {
+    display: inline-block;
+    width: 70%;
+} 
+div.desc:hover{
+    color: #C1272D;
+}
+div.descOtherOutside{
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px rgba(0,0,0,0.1);
+    width: 95%;
+    left: 2.5%;
+    position: relative;
+    z-index: 1;
+    height: 55px;
+    background: white;
+    
+    padding-bottom: 50px;
+}
+div.descOtherHidden{
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px rgba(0,0,0,0.1);
+    width: 95%;
+    left: 2.5%;
+    position: relative;
+    z-index: 0;
+    height: 55px;
+}
+.allGallery{
+    display: table;
+    margin: 0 auto;
+    width: 70%;
+}
+button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0;
+    text-decoration: none;
+
+}
+
